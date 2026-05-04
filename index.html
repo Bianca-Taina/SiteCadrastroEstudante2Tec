@@ -9,14 +9,21 @@
 
 <body>
 
-    <div class = " container">
-        <h1> Cadastro de Alunos </h1>
-        <form id = "cadarstroForm">
+    <div class="container">
+        <h1>Cadastro de Alunos</h1>
+        <form id="cadastroForm">
             <input type="text" id="nomeAluno" placeholder="Nome do Aluno" required>
             <input type="text" id="idadeAluno" placeholder="Idade do Aluno" required>
-            <button type="submit" id = "bntSalvar"> Cadastrar </button>
+            <input type="text" id="cpfAluno" placeholder="CPF do Aluno" required>
+            <input type="text" id="emailAluno" placeholder="Email  do Aluno" required>
+            <button type="submit" id="btnSalvar">Cadastrar</button>
         </form>
+        <h2> Lista de Inscritos </h2>
+        <ul id="listaAlunos">
+
+        </ul>
     </div>
+    <script src="script.js"> </script>
     
 </body>
 </html>
